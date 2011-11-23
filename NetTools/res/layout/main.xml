@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<EditText 
+android:layout_height="wrap_content"
+android:id="@+id/address"
+android:layout_width="fill_parent"
+android:text="www.google.com"
+>
+</EditText>
+<EditText 
+android:layout_height="wrap_content"
+android:id="@+id/port"
+android:layout_width="fill_parent"
+android:text="80"
+>
+</EditText>
+<Button
+ android:id="@+id/ButtonGo" 
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"
+ android:text="ping"
+ >
+ </Button>
+ 
+
+  <Button 
+android:text="IP Resolver" 
+android:id="@+id/button1" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content">
+</Button>
+ <Button
+ android:id="@+id/portScan" 
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content"
+ android:text="Port Scan"
+ >
+  </Button>
+<EditText 
+	android:id="@+id/pagetext" 
+	android:layout_height="wrap_content" 
+	android:layout_width="fill_parent"
+	>
+</EditText>
+
+</LinearLayout>
