@@ -1,0 +1,21 @@
+NetTools for Android
+
+This is an Android app that containt different Networking Tools built on java for android.
+
+Currently present Tools-
+
+Ping
+Domain to IP resolver
+Port Scan
+
+These tools are very simple. New tools to be added include
+Ping Sweep
+Better Port Scanner
+DNS Lookup
+
+
+App developed by
+Shashank Agarwal
+shashank@shankee.com
+
+Site: http://nettools.webeasy.in
