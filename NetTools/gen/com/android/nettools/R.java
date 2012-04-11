@@ -14,15 +14,20 @@ public final class R {
         public static final int icon=0x7f020000;
     }
     public static final class id {
-        public static final int ButtonGo=0x7f050002;
-        public static final int address=0x7f050000;
-        public static final int button1=0x7f050003;
-        public static final int pagetext=0x7f050005;
-        public static final int port=0x7f050001;
-        public static final int portScan=0x7f050004;
+        public static final int ButtonGo=0x7f050007;
+        public static final int address=0x7f050005;
+        public static final int address1=0x7f050001;
+        public static final int btnClick=0x7f050000;
+        public static final int button1=0x7f050008;
+        public static final int pagetext=0x7f050009;
+        public static final int pagetext1=0x7f050004;
+        public static final int port=0x7f050006;
+        public static final int port1=0x7f050002;
+        public static final int portScan1=0x7f050003;
     }
     public static final class layout {
-        public static final int main=0x7f030000;
+        public static final int index=0x7f030000;
+        public static final int main=0x7f030001;
     }
     public static final class string {
         public static final int app_name=0x7f040001;

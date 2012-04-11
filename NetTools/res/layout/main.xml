@@ -4,6 +4,13 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     >
+<Button 
+   android:id ="@+id/btnClick"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:text="Port Scanner"
+/>
+    
 <EditText 
 android:layout_height="wrap_content"
 android:id="@+id/address"
@@ -33,13 +40,7 @@ android:id="@+id/button1"
 android:layout_width="wrap_content" 
 android:layout_height="wrap_content">
 </Button>
- <Button
- android:id="@+id/portScan" 
- android:layout_width="wrap_content" 
- android:layout_height="wrap_content"
- android:text="Port Scan"
- >
-  </Button>
+
 <EditText 
 	android:id="@+id/pagetext" 
 	android:layout_height="wrap_content" 
