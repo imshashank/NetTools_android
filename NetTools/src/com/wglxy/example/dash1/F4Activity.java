@@ -17,6 +17,10 @@
 package com.wglxy.example.dash1;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
 
 /**
  * This is the activity for feature 4 in the dashboard application.
@@ -44,6 +48,38 @@ protected void onCreate(Bundle savedInstanceState)
     super.onCreate(savedInstanceState);
     setContentView (R.layout.activity_f4);
     setTitleFromActivityLabel (R.id.title_text);
+    
+    final EditText hex1 = (EditText) findViewById(R.id.hex);
+    final TextView bin1 = (TextView) findViewById(R.id.bin1);
+    final TextView long1 = (TextView) findViewById(R.id.long1);
+    
+    final Button button1 = (Button) findViewById(R.id.button1);
+    
+    	  
+    	  button1.setOnClickListener(new Button.OnClickListener() {
+    		   	    	       
+    	          
+    	          
+    	         public void onClick(View v) {
+    	         	
+    	         	try {  
+    	         		
+    	         	String hex = hex1.getText().toString();
+    	         	int i= Integer.parseInt(hex,16);
+    	         	String by = Integer.toBinaryString(i);
+    	          	  
+    	          	bin1.setText(by);
+    	          	  
+    	          	  long num = Long.parseLong(hex,16);
+    	          	  String num1= String.valueOf(num);
+    	          	  long1.setText(num1);
+    	         		} finally{
+    	         		}
+    	         		
+    	         }  	  
+    	        
+    	     });
+    	  
 }
     
-} // end class
+} 

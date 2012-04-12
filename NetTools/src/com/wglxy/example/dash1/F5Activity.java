@@ -16,7 +16,17 @@
 
 package com.wglxy.example.dash1;
 
+import java.io.DataInputStream;
+import java.io.IOException;
+import java.io.PrintStream;
+import java.net.Socket;
+
 import android.os.Bundle;
+import android.text.method.ScrollingMovementMethod;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
 
 /**
  * This is the activity for feature 5 in the dashboard application.
@@ -44,6 +54,49 @@ protected void onCreate(Bundle savedInstanceState)
     super.onCreate(savedInstanceState);
     setContentView (R.layout.activity_f5);
     setTitleFromActivityLabel (R.id.title_text);
-}
     
-} // end class
+    final EditText url1 = (EditText) findViewById(R.id.url1);
+    final Button button1 = (Button) findViewById(R.id.whois1);
+    final TextView out1 = (TextView) findViewById(R.id.whoisout);
+    out1.setMovementMethod(ScrollingMovementMethod.getInstance());
+
+    final int port = 43;
+    final String hostname = "whois.internic.net";
+
+
+       
+	  
+	  button1.setOnClickListener(new Button.OnClickListener() {
+		   	  
+	         public void onClick(View v) {
+	         	
+	        	 
+	        	    
+	        	    try {
+	        	    	Socket theSocket;
+	        	        DataInputStream theWhoisStream;
+             	         PrintStream ps;
+	        	        
+	        	  	      theSocket = new Socket(hostname, port, true);
+	        	   	      ps = new PrintStream(theSocket.getOutputStream());
+	        	   	      
+	        	   	      String link = url1.getText().toString(); 	  
+	        	   	      ps.print(link + " ");
+	        	   	      ps.print("\r\n");
+	        	   	      theWhoisStream = new DataInputStream(theSocket.getInputStream());
+	        	   	      String s;
+	        	   	      while ((s = theWhoisStream.readLine()) != null) {
+			        		    	        out1.append(s);
+	        	    	      }
+        	    	    }
+        	    	    catch (IOException e) {
+        	    	      System.err.println(e);
+        	    	    }
+	        	    
+	         }
+	     });
+	  
+    
+}}
+
+

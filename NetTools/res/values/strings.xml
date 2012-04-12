@@ -26,8 +26,8 @@
     <string name="description_feature1">Port Scanner</string>
     <string name="description_feature2">Ping Tool</string>
     <string name="description_feature3">IP Resolver</string>
-    <string name="description_feature4">Feature 4</string>
-    <string name="description_feature5">Feature 5</string>
+    <string name="description_feature4">Hex to Binary &amp; Decimal. Be sure to enter only valid HEX values for conversion.</string>
+    <string name="description_feature5">Whois</string>
     <string name="description_feature6">Feature 6</string>
 
     <string name="title_about">About</string>
@@ -36,16 +36,16 @@
     <string name="title_feature1">Port Scanner</string>
     <string name="title_feature2">Ping</string>
     <string name="title_feature3">IP Resolver</string>
-    <string name="title_feature4">Feature 4</string>
-    <string name="title_feature5">Feature 5</string>
+    <string name="title_feature4">Hex to Binary &amp; Decimal</string>
+    <string name="title_feature5">Whois</string>
     <string name="title_feature6">Feature 6</string>
 
     <string name="default_intro">This is the default content view for an activity. Be sure to change your activity\'s onCreate method. Use setContentView on a custom layout.</string>
     <string name="feature1_intro">Port Scanner</string>
     <string name="feature2_intro">A simple ping tool made in JAVA.</string>
     <string name="feature3_intro">Domain to IP converter that finds the IP of a domain name.</string>
-    <string name="feature4_intro">Feature 4 content goes here.</string>
-    <string name="feature5_intro">Feature 5 content goes here.</string>
+    <string name="feature4_intro">Hexadecimal to Binary &amp; Decimal Converter</string>
+    <string name="feature5_intro">The Whois for any URL, know who a link belongs to.</string>
     <string name="feature6_intro">Feature 6 content goes here.</string>
 
     <string name="about_intro">NetTools is a collection of tools and utilities which ease developers in day to day tasks. The application is open sourced and is under construction. More utilities will be added to it.. For any info contact  Shashank Agarwal (shashank@shankee.com)</string>

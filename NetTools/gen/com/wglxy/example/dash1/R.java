@@ -179,19 +179,22 @@ containing a value of this type.
         public static final int ButtonGo=0x7f06000d;
         public static final int address=0x7f06000c;
         public static final int address1=0x7f060008;
+        public static final int bin1=0x7f060012;
         public static final int blocks_now=0x7f060007;
         public static final int blocks_ruler=0x7f060006;
         public static final int button1=0x7f06000f;
-        public static final int db1_root=0x7f060011;
+        public static final int db1_root=0x7f060017;
         public static final int dialog_discard_confirm=0x7f060003;
         public static final int dialog_moderator=0x7f060004;
         public static final int dialog_wave=0x7f060005;
-        public static final int home_btn_feature1=0x7f060012;
-        public static final int home_btn_feature2=0x7f060013;
-        public static final int home_btn_feature3=0x7f060014;
-        public static final int home_btn_feature4=0x7f060015;
-        public static final int home_btn_feature5=0x7f060016;
-        public static final int home_btn_feature6=0x7f060017;
+        public static final int hex=0x7f060011;
+        public static final int home_btn_feature1=0x7f060018;
+        public static final int home_btn_feature2=0x7f060019;
+        public static final int home_btn_feature3=0x7f06001a;
+        public static final int home_btn_feature4=0x7f06001b;
+        public static final int home_btn_feature5=0x7f06001c;
+        public static final int home_btn_feature6=0x7f06001d;
+        public static final int long1=0x7f060013;
         public static final int output=0x7f060010;
         public static final int pagetext=0x7f06000e;
         public static final int pagetext1=0x7f06000b;
@@ -200,6 +203,9 @@ containing a value of this type.
         public static final int title_container=0x7f060000;
         public static final int title_logo=0x7f060001;
         public static final int title_text=0x7f060002;
+        public static final int url1=0x7f060014;
+        public static final int whois1=0x7f060015;
+        public static final int whoisout=0x7f060016;
     }
     public static final class layout {
         public static final int activity_about=0x7f030000;

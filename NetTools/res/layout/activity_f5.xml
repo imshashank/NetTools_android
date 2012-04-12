@@ -41,4 +41,32 @@
     android:layout_height="wrap_content" 
     android:text="@string/feature5_intro"
     />
+
+<EditText 
+android:layout_height="wrap_content"
+android:id="@+id/url1"
+android:layout_width="fill_parent"
+android:text="dailyjag.com"
+>
+</EditText>
+ 
+
+  <Button 
+android:text="Whois" 
+android:id="@+id/whois1" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content">
+</Button>
+
+<TextView 
+android:layout_height="wrap_content"
+android:id="@+id/whoisout"
+android:layout_width="fill_parent"
+android:singleLine="false"
+android:scrollbars="vertical"
+android:text=" "
+>
+</TextView>
+  
+  
 </LinearLayout>
