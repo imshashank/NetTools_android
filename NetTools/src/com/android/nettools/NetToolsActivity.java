@@ -1,7 +1,5 @@
 package com.android.nettools;
 
-
-
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.InetAddress;
@@ -147,12 +145,8 @@ public class NetToolsActivity extends Activity {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
-           	
           	}
-           
-       	
-       });
-        
+       });   
     }
 }        
            
